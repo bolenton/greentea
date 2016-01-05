@@ -32,9 +32,13 @@ body {
 
 #my-cart {
     position: relative;
-    left: 1200;
+    left: 900px;
 }
 
+select {
+   position: relative;
+    left: 1px; 
+}
 
 #first-header a {
     color: white;
