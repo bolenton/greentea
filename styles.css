@@ -6,6 +6,9 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
 
 .h2-first {
     color: #00713D;
@@ -82,9 +85,7 @@ select:hover {
     background-color: #45AA42;
     width: 100%;
     height: 50px;
-    margin-bottom: 22px;
-    
-    
+    margin-bottom: 22px;   
 }
 
 #second-header ul {
@@ -94,8 +95,7 @@ select:hover {
     list-style-type: none;
     margin: 0;
     padding: 3px;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 
 #second-header li {
@@ -114,8 +114,8 @@ select:hover {
     width: 39px;
 }
 
-#second-header a:hover {
-    color: pink; 
+#second-header li:hover {
+    color: #E6E6E6; 
 }
 
 #main-page {
@@ -129,17 +129,14 @@ select:hover {
     font-size: 18px;
     background-color: white;    
     border-bottom: 4px solid #ddd;
-    padding: 15px;
-    
+    padding: 15px;    
 }
 
 .button-success {
     color: white;
     background-color: #45AA42;
-    border: none;
-    
+    border: none;    
     height: 35px;
-
     text-decoration: none;
 }
 
@@ -181,8 +178,7 @@ select:hover {
 #full-pad-top button{
     position: absolute;
     font-size: 14px;
-    margin-top: 123px;
-   
+    margin-top: 123px;  
     width: 238px;
     height: 38PX;
     padding-left: 0;
@@ -205,8 +201,7 @@ select:hover {
     margin-right: 0px;
 }
 
-.small-pads{
-    
+.small-pads{ 
     margin-top: 21px;
     background-color: white;
     display: inline-block;
@@ -216,10 +211,7 @@ select:hover {
     margin-bottom: 25px; 
     width: 320px;
     height: 280px;
-     
 }
-
-
 
 .small-pads img{
     display: inline-block;
@@ -237,14 +229,18 @@ select:hover {
     padding-top: 0;
 }
 
+.small-pads button img:hover{
+    background-color: aliceblue;
+    opacity:1;
+    background:rgba(0,0,0,.75);
+}
+
 .small-pads button {
     display: inline-block;
     font-size: 16px;
     width: 320px;
-    height: 40px;
-    
-    margin-right: 12px;
-   
+    height: 40px;    
+    margin-right: 12px;  
 }
 
 #full-pad-bot{
@@ -263,20 +259,17 @@ select:hover {
     width: 800px
 }
 
-#full-pad-bot h1 {
-    
+#full-pad-bot h1 {    
     margin-top: 40px;
     margin-bottom: 0; 
 }
 
 #full-pad-bot h2 {
     font-size: 23px;
-}
-    
+}    
 
 #full-pad-bot h4 {
-    margin-top: 0;
-  
+    margin-top: 0; 
 }
 
 #full-pad-bot p {
@@ -291,25 +284,27 @@ select:hover {
     margin-right: 6px;
     float: right;
     width: 247px;
-    height: 247px;
-    
+    height: 247px;   
 }
 
 #full-pad-bot button{
     width: 130px;
 }
 
+#full-pad-bot button img {
+    position: relative;
+    bottom: -3px;
+}
+
 #main-footer {
     width: 100%;
 }
-
 
 #first-footer {
     background-color: #028046;
     color: white;
     width: 100%;
     height: 181px;
-
 }
 
 #first-footer div {
@@ -319,7 +314,6 @@ select:hover {
 #first-footer div ul {
     list-style-type: none;
     padding-left: 0;
-  
 }
 
 /*company*/
@@ -327,21 +321,17 @@ select:hover {
 #company {
     position: relative;
     left: 390px; 
-    margin-top: 20px;
-
-   
+    margin-top: 20px;  
 }
 
 #company h3 {
     font-size: 14px;
 }
 
-#company a {
-    font-size: 14px;
-    line-height: 20px;
-    
-        
-}
+#first-footer a    {color:white; background-color:transparent; text-decoration:none}
+
+
+#first-footer a:hover   {color:white; background-color:transparent; text-decoration:underline}
 
 #company  li img{
     position: relative;
@@ -349,7 +339,6 @@ select:hover {
     padding-left: 0;
     right: 12px;
 }
-
 
 /*customer*/
 
@@ -388,8 +377,7 @@ select:hover {
 #million {
     position: relative;
     left: 630px; 
-    bottom: 60px;
-    
+    bottom: 60px;  
 }
 
 #million h3 {
@@ -422,9 +410,6 @@ select:hover {
     margin-left: 0;
 }
 
-
-
-
 #second-footer {
     display: inline-block;
     background-color: #00713D;
@@ -438,6 +423,10 @@ select:hover {
     position: relative;
     left: 1325px;
 }
+
+#second-footer a    {color:white; background-color:transparent; text-decoration:none}
+
+#second-footer a:hover   {color:white; background-color:transparent; text-decoration:underline}
 
 #bot-para1 {
     position: relative;
