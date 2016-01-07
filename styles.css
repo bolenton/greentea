@@ -6,10 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-a{
-    text-decoration: none;
-}
-
 
 .h2-first {
     color: #00713D;
@@ -119,7 +115,7 @@ select:hover {
 }
 
 #second-header a:hover {
-    color: #E6E6E6; 
+    color: pink; 
 }
 
 #main-page {
@@ -307,24 +303,150 @@ select:hover {
     width: 100%;
 }
 
+
 #first-footer {
     background-color: #028046;
     color: white;
     width: 100%;
+    height: 181px;
+
 }
 
 #first-footer div {
     display: inline-block;
 }
 
-#second-footer {
-    display: inline-block;
-    background-color: #00713D;
-    color: white;
-    width: 100%;
-    height: 210px;
+#first-footer div ul {
+    list-style-type: none;
+    padding-left: 0;
+  
+}
+
+/*company*/
+
+#company {
+    position: relative;
+    left: 390px; 
+    margin-top: 20px;
+
+   
+}
+
+#company h3 {
+    font-size: 14px;
+}
+
+#company a {
+    font-size: 14px;
+    line-height: 20px;
+    
+        
+}
+
+#company  li img{
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    right: 12px;
+}
+
+
+/*customer*/
+
+#customer {
+    position: relative;
+    left: 470px; 
+    bottom: 40px;
+}
+
+#customer h3 {
+    font-size: 14px;
+}
+
+#customer li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*reseller*/
+#reseller {
+    position: relative;
+    left: 560px; 
+    bottom: 60px;
+}
+
+#reseller h3 {
+    font-size: 14px;
+}
+
+#reseller li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*million*/
+#million {
+    position: relative;
+    left: 630px; 
+    bottom: 60px;
+    
+}
+
+#million h3 {
+    font-size: 14px;
+}
+
+#million li {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+/*about*/
+
+#about {
+    position: relative;
+    left: 710px; 
+    bottom: 10px;
+}
+
+#about h3 {
+    font-size: 14px;
+    padding: 0;
+    margin: 5px;
+}
+
+#about img {
+    font-size: 14px;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 
 
 
+#second-footer {
+    display: inline-block;
+    background-color: #00713D;
+    color: white;
+    width: 100%;
+    height: 195px;
+}
+
+#second-footer img {
+    margin-top: 27px;
+    position: relative;
+    left: 1325px;
+}
+
+#bot-para1 {
+    position: relative;
+    left: 785px;
+    top: 10px;
+}
+
+#bot-para2 {
+    position: relative;
+    left: 701px;
+    top: 31px;
+}
